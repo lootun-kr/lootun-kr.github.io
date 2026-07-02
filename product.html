@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LOOTUN 루툰 | Product Detail</title>
+    <meta
+      name="description"
+      content="LOOTUN 루툰 상품 상세 정보."
+    />
+    <link rel="stylesheet" href="styles.css?v=20260702-linkfix" />
+  </head>
+  <body>
+    <header class="site-header solid">
+      <a class="brand-mark" href="index.html" aria-label="LOOTUN 홈">
+        <span class="brand-symbol">LT</span>
+        <span>
+          <strong>LOOTUN</strong>
+          <small>루툰</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="주요 메뉴">
+        <a href="index.html#catalog">Catalog</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="detail-main">
+      <a class="back-link" href="index.html#catalog">← 카탈로그로 돌아가기</a>
+      <section class="product-detail" id="product-detail" aria-live="polite"></section>
+      <section class="detail-image-section" id="detail-image-section" aria-label="상품 상세 이미지"></section>
+      <section class="related-section" aria-labelledby="related-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">RELATED</p>
+          <h2 id="related-title">같은 카테고리 상품</h2>
+        </div>
+        <div class="related-grid" id="related-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>LOOTUN 루툰</span>
+      <span>© <span id="year"></span> lootun-kr</span>
+    </footer>
+
+    <script src="script.js?v=20260702-linkfix"></script>
+  </body>
+</html>

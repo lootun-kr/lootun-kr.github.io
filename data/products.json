@@ -1,0 +1,83 @@
+{
+  "categories": [
+    {
+      "name": "캐릭터 무드등",
+      "slug": "character-mood-light",
+      "description": "포근한 빛과 귀여운 캐릭터 감성으로 일상에 작은 휴식을 더하는 무드등 라인입니다."
+    }
+  ],
+  "products": [
+    {
+      "id": "malang-musical-duck-mood-light",
+      "category": "캐릭터 무드등",
+      "model": "LT-001",
+      "name": "말랑 뮤지컬 오리 무드등",
+      "summary": "포근한 빛으로 지친하루를 힐링!",
+      "description": "상세페이지로 제공",
+      "image": "assets/images/products/malang-musical-duck-mood-light.jpg",
+      "detailImages": [
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-01.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-02.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-03.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-04.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-05.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-06.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-07.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-08.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-09.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-10.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-11.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-12.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-13.jpg",
+        "assets/images/products/malang-musical-duck-mood-light/detail/detail-14.jpg"
+      ],
+      "links": {
+        "coupang": "https://www.coupang.com/vp/products/9030034606?vendorItemId=93461629876"
+      },
+      "tags": ["character", "mood light", "duck"],
+      "specs": ["상세페이지 제공", "쿠팡 바로가기 제공", "네이버 스마트스토어 링크 준비중"],
+      "palette": ["#f4d77b", "#5f493d", "#f1b51c"]
+    },
+    {
+      "id": "malang-football-mood-light",
+      "category": "캐릭터 무드등",
+      "model": "LT-002",
+      "name": "말랑 축구공 무드등",
+      "summary": "포근한 빛으로 지친 하루를 힐링!",
+      "description": "상세페이지 이미지로 제공",
+      "image": "assets/images/products/malang-football-mood-light.jpg",
+      "detailImages": [
+        "assets/images/products/malang-football-mood-light/detail/detail-01.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-02.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-03.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-04.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-05.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-06.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-07.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-08.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-09.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-10.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-11.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-12.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-13.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-14.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-15.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-16.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-17.jpg",
+        "assets/images/products/malang-football-mood-light/detail/detail-18.jpg"
+      ],
+      "links": {
+        "coupang": "https://www.coupang.com/vp/products/9406327273?vendorItemId=94943182176"
+      },
+      "tags": ["character", "mood light", "football"],
+      "specs": [
+        "상세페이지 제공",
+        "터치식 3단계 밝기 조절",
+        "30분 타이머",
+        "충전식 사용",
+        "네이버 스마트스토어 링크 준비중"
+      ],
+      "palette": ["#5d8b49", "#3a2b20", "#f4ce58"]
+    }
+  ]
+}
