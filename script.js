@@ -18,10 +18,19 @@ function cssVars(product) {
   return `--card-a:${palette[0]};--card-b:${palette[1]};--card-c:${palette[2]};`;
 }
 
+function productImages(product) {
+  return sortByFileName(product.thumbnailImages || product.thumbnails || (product.image ? [product.image] : []));
+}
+
+function primaryProductImage(product) {
+  return productImages(product)[0] || "";
+}
+
 function productArt(product, isDetail = false) {
-  const image = product.image ? `<img src="${product.image}" alt="${product.name}" />` : "";
-  const shape = product.image ? "" : '<span class="product-shape" aria-hidden="true"></span>';
-  const imageClass = product.image ? " has-image" : "";
+  const imageSrc = primaryProductImage(product);
+  const image = imageSrc ? `<img src="${imageSrc}" alt="${product.name}" />` : "";
+  const shape = imageSrc ? "" : '<span class="product-shape" aria-hidden="true"></span>';
+  const imageClass = imageSrc ? " has-image" : "";
   const detailClass = isDetail ? " detail-art" : " product-art";
   return `<div class="${detailClass.trim()}${imageClass}" style="${cssVars(product)}">${image}${shape}</div>`;
 }
@@ -34,11 +43,28 @@ function sortByFileName(paths = []) {
   });
 }
 
+function productKey(product) {
+  return product.model || product.name;
+}
+
+function productThumbnailStrip(product) {
+  const thumbnails = productImages(product);
+  if (thumbnails.length <= 1) return "";
+  return `
+    <div class="thumbnail-strip" aria-label="${product.name} 썸네일">
+      ${thumbnails
+        .map((src, index) => `<img src="${src}" alt="${product.name} 썸네일 ${index + 1}" />`)
+        .join("")}
+    </div>
+  `;
+}
+
 function productCard(product, compact = false) {
   const tags = product.tags?.slice(0, 2).join(" · ") || product.category;
   const modelPill = product.model ? `<span>${product.model}</span>` : "";
+  const model = productKey(product);
   return `
-    <a class="product-card${compact ? " compact" : ""}" href="product.html?id=${encodeURIComponent(product.id)}" aria-label="${product.name} 상세페이지 보기" style="${cssVars(product)}">
+    <a class="product-card${compact ? " compact" : ""}" href="product.html?model=${encodeURIComponent(model)}" aria-label="${product.name} 상세페이지 보기" style="${cssVars(product)}">
       ${productArt(product)}
       <div class="card-scrim" aria-hidden="true"></div>
       <div class="product-body">
@@ -227,8 +253,9 @@ function renderDetail(data) {
   const related = document.getElementById("related-grid");
   if (!detail || !related) return;
 
-  const id = new URLSearchParams(window.location.search).get("id");
-  const product = data.products.find((item) => item.id === id);
+  const params = new URLSearchParams(window.location.search);
+  const model = params.get("model");
+  const product = data.products.find((item) => productKey(item) === model);
   if (!product) {
     detail.innerHTML = `
       <div class="empty-state">
@@ -248,7 +275,10 @@ function renderDetail(data) {
     ? `<a class="button ghost solid-ghost" href="${links.naver}" target="_blank" rel="noopener noreferrer">네이버 스마트스토어 바로가기</a>`
     : '<span class="button unavailable" aria-disabled="true">네이버 스마트스토어 준비중</span>';
   detail.innerHTML = `
-    ${productArt(product, true)}
+    <div class="detail-media">
+      ${productArt(product, true)}
+      ${productThumbnailStrip(product)}
+    </div>
     <div class="detail-copy">
       <span class="product-kicker">${product.category}</span>
       <h1>${product.name}</h1>
@@ -293,7 +323,7 @@ function renderDetail(data) {
   }
 
   const relatedProducts = data.products
-    .filter((item) => item.category === product.category && item.id !== product.id)
+    .filter((item) => item.category === product.category && productKey(item) !== productKey(product))
     .slice(0, 4);
   related.innerHTML = relatedProducts.length
     ? relatedProducts.map((item) => productCard(item, true)).join("")

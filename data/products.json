@@ -8,68 +8,94 @@
   ],
   "products": [
     {
-      "id": "malang-musical-duck-mood-light",
       "category": "캐릭터 무드등",
       "model": "LT-001",
       "name": "말랑 뮤지컬 오리 무드등",
       "summary": "포근한 빛으로 지친하루를 힐링!",
       "description": "상세페이지로 제공",
-      "image": "assets/images/products/malang-musical-duck-mood-light.jpg",
+      "thumbnailImages": [
+        "assets/images/products/lt-001/thumbnail/thumbnail-01.jpg",
+        "assets/images/products/lt-001/thumbnail/thumbnail-02.jpg",
+        "assets/images/products/lt-001/thumbnail/thumbnail-03.jpg",
+        "assets/images/products/lt-001/thumbnail/thumbnail-04.jpg"
+      ],
       "detailImages": [
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-01.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-02.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-03.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-04.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-05.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-06.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-07.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-08.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-09.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-10.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-11.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-12.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-13.jpg",
-        "assets/images/products/malang-musical-duck-mood-light/detail/detail-14.jpg"
+        "assets/images/products/lt-001/detail/detail-01.jpg",
+        "assets/images/products/lt-001/detail/detail-02.jpg",
+        "assets/images/products/lt-001/detail/detail-03.jpg",
+        "assets/images/products/lt-001/detail/detail-04.jpg",
+        "assets/images/products/lt-001/detail/detail-05.jpg",
+        "assets/images/products/lt-001/detail/detail-06.jpg",
+        "assets/images/products/lt-001/detail/detail-07.jpg",
+        "assets/images/products/lt-001/detail/detail-08.jpg",
+        "assets/images/products/lt-001/detail/detail-09.jpg",
+        "assets/images/products/lt-001/detail/detail-10.jpg",
+        "assets/images/products/lt-001/detail/detail-11.jpg",
+        "assets/images/products/lt-001/detail/detail-12.jpg",
+        "assets/images/products/lt-001/detail/detail-13.jpg",
+        "assets/images/products/lt-001/detail/detail-14.jpg"
       ],
       "links": {
         "coupang": "https://www.coupang.com/vp/products/9030034606?vendorItemId=93461629876"
       },
-      "tags": ["character", "mood light", "duck"],
-      "specs": ["상세페이지 제공", "쿠팡 바로가기 제공", "네이버 스마트스토어 링크 준비중"],
-      "palette": ["#f4d77b", "#5f493d", "#f1b51c"]
+      "tags": [
+        "character",
+        "mood light",
+        "duck"
+      ],
+      "specs": [
+        "상세페이지 제공",
+        "쿠팡 바로가기 제공",
+        "네이버 스마트스토어 링크 준비중"
+      ],
+      "palette": [
+        "#f4d77b",
+        "#5f493d",
+        "#f1b51c"
+      ]
     },
     {
-      "id": "malang-football-mood-light",
       "category": "캐릭터 무드등",
       "model": "LT-002",
       "name": "말랑 축구공 무드등",
       "summary": "포근한 빛으로 지친 하루를 힐링!",
       "description": "상세페이지 이미지로 제공",
-      "image": "assets/images/products/malang-football-mood-light.jpg",
+      "thumbnailImages": [
+        "assets/images/products/lt-002/thumbnail/thumbnail-01.jpg",
+        "assets/images/products/lt-002/thumbnail/thumbnail-02.jpg",
+        "assets/images/products/lt-002/thumbnail/thumbnail-03.jpg",
+        "assets/images/products/lt-002/thumbnail/thumbnail-04.jpg",
+        "assets/images/products/lt-002/thumbnail/thumbnail-05.jpg",
+        "assets/images/products/lt-002/thumbnail/thumbnail-06.jpg"
+      ],
       "detailImages": [
-        "assets/images/products/malang-football-mood-light/detail/detail-01.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-02.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-03.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-04.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-05.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-06.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-07.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-08.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-09.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-10.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-11.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-12.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-13.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-14.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-15.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-16.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-17.jpg",
-        "assets/images/products/malang-football-mood-light/detail/detail-18.jpg"
+        "assets/images/products/lt-002/detail/detail-01.jpg",
+        "assets/images/products/lt-002/detail/detail-02.jpg",
+        "assets/images/products/lt-002/detail/detail-03.jpg",
+        "assets/images/products/lt-002/detail/detail-04.jpg",
+        "assets/images/products/lt-002/detail/detail-05.jpg",
+        "assets/images/products/lt-002/detail/detail-06.jpg",
+        "assets/images/products/lt-002/detail/detail-07.jpg",
+        "assets/images/products/lt-002/detail/detail-08.jpg",
+        "assets/images/products/lt-002/detail/detail-09.jpg",
+        "assets/images/products/lt-002/detail/detail-10.jpg",
+        "assets/images/products/lt-002/detail/detail-11.jpg",
+        "assets/images/products/lt-002/detail/detail-12.jpg",
+        "assets/images/products/lt-002/detail/detail-13.jpg",
+        "assets/images/products/lt-002/detail/detail-14.jpg",
+        "assets/images/products/lt-002/detail/detail-15.jpg",
+        "assets/images/products/lt-002/detail/detail-16.jpg",
+        "assets/images/products/lt-002/detail/detail-17.jpg",
+        "assets/images/products/lt-002/detail/detail-18.jpg"
       ],
       "links": {
         "coupang": "https://www.coupang.com/vp/products/9406327273?vendorItemId=94943182176"
       },
-      "tags": ["character", "mood light", "football"],
+      "tags": [
+        "character",
+        "mood light",
+        "football"
+      ],
       "specs": [
         "상세페이지 제공",
         "터치식 3단계 밝기 조절",
@@ -77,7 +103,167 @@
         "충전식 사용",
         "네이버 스마트스토어 링크 준비중"
       ],
-      "palette": ["#5d8b49", "#3a2b20", "#f4ce58"]
+      "palette": [
+        "#5d8b49",
+        "#3a2b20",
+        "#f4ce58"
+      ]
+    },
+    {
+      "category": "캐릭터 무드등",
+      "model": "LT-003",
+      "name": "유앤아이 말랑 토끼 무드등",
+      "summary": "잠자리 곁을 부드럽게 밝혀주는 말랑한 토끼 무드등",
+      "description": "U&I Big Face Rabbit Night Light 상세페이지 이미지로 제공",
+      "thumbnailImages": [
+        "assets/images/products/lt-003/thumbnail/thumbnail-01.jpg",
+        "assets/images/products/lt-003/thumbnail/thumbnail-02.jpg",
+        "assets/images/products/lt-003/thumbnail/thumbnail-03.jpg",
+        "assets/images/products/lt-003/thumbnail/thumbnail-04.jpg",
+        "assets/images/products/lt-003/thumbnail/thumbnail-05.jpg",
+        "assets/images/products/lt-003/thumbnail/thumbnail-06.jpg",
+        "assets/images/products/lt-003/thumbnail/thumbnail-07.jpg"
+      ],
+      "detailImages": [
+        "assets/images/products/lt-003/detail/detail-01.jpg",
+        "assets/images/products/lt-003/detail/detail-02.jpg",
+        "assets/images/products/lt-003/detail/detail-03.jpg",
+        "assets/images/products/lt-003/detail/detail-04.jpg",
+        "assets/images/products/lt-003/detail/detail-05.jpg",
+        "assets/images/products/lt-003/detail/detail-06.jpg",
+        "assets/images/products/lt-003/detail/detail-07.jpg",
+        "assets/images/products/lt-003/detail/detail-08.jpg",
+        "assets/images/products/lt-003/detail/detail-09.jpg",
+        "assets/images/products/lt-003/detail/detail-10.jpg",
+        "assets/images/products/lt-003/detail/detail-11.jpg",
+        "assets/images/products/lt-003/detail/detail-12.jpg"
+      ],
+      "tags": [
+        "character",
+        "mood light",
+        "rabbit",
+        "night light"
+      ],
+      "specs": [
+        "상세페이지 제공",
+        "썸네일 7장 제공",
+        "오브제 연출컷 제공",
+        "쿠팡 링크 준비중",
+        "네이버 스마트스토어 링크 준비중"
+      ],
+      "palette": [
+        "#f6c9b4",
+        "#9b5a37",
+        "#f07f73"
+      ]
+    },
+    {
+      "category": "캐릭터 무드등",
+      "model": "LT-004",
+      "name": "유앤아이 말랑 오리 무드등",
+      "summary": "동글동글한 오리 실루엣으로 공간을 포근하게 채우는 무드등",
+      "description": "U&I 캐릭터 오리 무드등 썸네일 이미지로 제공",
+      "thumbnailImages": [
+        "assets/images/products/lt-004/thumbnail/thumbnail-01.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-02.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-03.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-04.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-05.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-06.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-07.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-08.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-09.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-10.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-11.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-12.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-13.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-14.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-15.jpg",
+        "assets/images/products/lt-004/thumbnail/thumbnail-16.jpg"
+      ],
+      "detailImages": [
+        "assets/images/products/lt-004/detail/detail-01.jpg",
+        "assets/images/products/lt-004/detail/detail-02.jpg",
+        "assets/images/products/lt-004/detail/detail-03.jpg",
+        "assets/images/products/lt-004/detail/detail-04.jpg",
+        "assets/images/products/lt-004/detail/detail-05.jpg",
+        "assets/images/products/lt-004/detail/detail-06.jpg",
+        "assets/images/products/lt-004/detail/detail-07.jpg",
+        "assets/images/products/lt-004/detail/detail-08.jpg",
+        "assets/images/products/lt-004/detail/detail-09.jpg",
+        "assets/images/products/lt-004/detail/detail-10.jpg",
+        "assets/images/products/lt-004/detail/detail-11.jpg",
+        "assets/images/products/lt-004/detail/detail-12.jpg",
+        "assets/images/products/lt-004/detail/detail-13.jpg"
+      ],
+      "tags": [
+        "character",
+        "mood light",
+        "duck",
+        "night light"
+      ],
+      "specs": [
+        "썸네일 16장 제공",
+        "말랑한 캐릭터 무드등",
+        "상세페이지 이미지 준비중",
+        "쿠팡 링크 준비중",
+        "네이버 스마트스토어 링크 준비중"
+      ],
+      "palette": [
+        "#ffd66f",
+        "#8a5b2c",
+        "#f5a623"
+      ]
+    },
+    {
+      "category": "캐릭터 무드등",
+      "model": "LT-005",
+      "name": "유앤아이 말랑 고양이 무드등",
+      "summary": "편안한 표정의 고양이 캐릭터가 은은한 빛을 더하는 무드등",
+      "description": "U&I Sweet Cat Night Light 상세페이지 이미지로 제공",
+      "thumbnailImages": [
+        "assets/images/products/lt-005/thumbnail/thumbnail-01.jpg",
+        "assets/images/products/lt-005/thumbnail/thumbnail-02.jpg",
+        "assets/images/products/lt-005/thumbnail/thumbnail-03.jpg",
+        "assets/images/products/lt-005/thumbnail/thumbnail-04.jpg",
+        "assets/images/products/lt-005/thumbnail/thumbnail-05.jpg",
+        "assets/images/products/lt-005/thumbnail/thumbnail-06.jpg",
+        "assets/images/products/lt-005/thumbnail/thumbnail-07.jpg",
+        "assets/images/products/lt-005/thumbnail/thumbnail-08.jpg"
+      ],
+      "detailImages": [
+        "assets/images/products/lt-005/detail/detail-01.jpg",
+        "assets/images/products/lt-005/detail/detail-02.jpg",
+        "assets/images/products/lt-005/detail/detail-03.jpg",
+        "assets/images/products/lt-005/detail/detail-04.jpg",
+        "assets/images/products/lt-005/detail/detail-05.jpg",
+        "assets/images/products/lt-005/detail/detail-06.jpg",
+        "assets/images/products/lt-005/detail/detail-07.jpg",
+        "assets/images/products/lt-005/detail/detail-08.jpg",
+        "assets/images/products/lt-005/detail/detail-09.jpg",
+        "assets/images/products/lt-005/detail/detail-10.jpg",
+        "assets/images/products/lt-005/detail/detail-11.jpg",
+        "assets/images/products/lt-005/detail/detail-12.jpg",
+        "assets/images/products/lt-005/detail/그림15.jpg"
+      ],
+      "tags": [
+        "character",
+        "mood light",
+        "cat",
+        "night light"
+      ],
+      "specs": [
+        "상세페이지 제공",
+        "썸네일 8장 제공",
+        "오브제 연출컷 제공",
+        "쿠팡 링크 준비중",
+        "네이버 스마트스토어 링크 준비중"
+      ],
+      "palette": [
+        "#f7dcc7",
+        "#8a5a3b",
+        "#f2b56b"
+      ]
     }
   ]
 }

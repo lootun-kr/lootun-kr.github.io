@@ -636,6 +636,12 @@ img {
   max-width: 1180px;
 }
 
+.detail-media {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
 .detail-art {
   background:
     radial-gradient(circle at 75% 20%, rgba(255, 255, 255, 0.58), transparent 32%),
@@ -659,6 +665,22 @@ img {
   left: 38px;
   position: absolute;
   width: min(360px, 72%);
+}
+
+.thumbnail-strip {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(82px, 1fr));
+}
+
+.thumbnail-strip img {
+  aspect-ratio: 1;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .detail-copy {
