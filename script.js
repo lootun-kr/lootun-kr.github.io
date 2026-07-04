@@ -1,4 +1,5 @@
-const DATA_URL = "data/products.json";
+const ASSET_VERSION = "20260705-detail-refresh";
+const DATA_URL = `data/products.json?v=${ASSET_VERSION}`;
 const page = document.body;
 const yearTarget = document.getElementById("year");
 
@@ -18,6 +19,12 @@ function cssVars(product) {
   return `--card-a:${palette[0]};--card-b:${palette[1]};--card-c:${palette[2]};`;
 }
 
+function versionedImageSrc(src) {
+  if (!src || /^(data:|blob:|https?:\/\/)/i.test(src)) return src;
+  const separator = src.includes("?") ? "&" : "?";
+  return `${src}${separator}v=${ASSET_VERSION}`;
+}
+
 function productImages(product) {
   return sortByFileName(product.thumbnailImages || product.thumbnails || (product.image ? [product.image] : []));
 }
@@ -28,7 +35,7 @@ function primaryProductImage(product) {
 
 function productArt(product, isDetail = false) {
   const imageSrc = primaryProductImage(product);
-  const image = imageSrc ? `<img src="${imageSrc}" alt="${product.name}" />` : "";
+  const image = imageSrc ? `<img src="${versionedImageSrc(imageSrc)}" alt="${product.name}" />` : "";
   const shape = imageSrc ? "" : '<span class="product-shape" aria-hidden="true"></span>';
   const imageClass = imageSrc ? " has-image" : "";
   const detailClass = isDetail ? " detail-art" : " product-art";
@@ -53,7 +60,7 @@ function productThumbnailStrip(product) {
   return `
     <div class="thumbnail-strip" aria-label="${product.name} 썸네일">
       ${thumbnails
-        .map((src, index) => `<img src="${src}" alt="${product.name} 썸네일 ${index + 1}" />`)
+        .map((src, index) => `<img src="${versionedImageSrc(src)}" alt="${product.name} 썸네일 ${index + 1}" />`)
         .join("")}
     </div>
   `;
@@ -314,7 +321,7 @@ function renderDetail(data) {
           ${images
             .map(
               (src, index) =>
-                `<img src="${src}" alt="${product.name} 상세 이미지 ${index + 1}" />`,
+                `<img src="${versionedImageSrc(src)}" alt="${product.name} 상세 이미지 ${index + 1}" />`,
             )
             .join("")}
         </div>
