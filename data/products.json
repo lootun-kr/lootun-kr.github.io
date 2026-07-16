@@ -4,6 +4,11 @@
       "name": "캐릭터 무드등",
       "slug": "character-mood-light",
       "description": "포근한 빛과 귀여운 캐릭터 감성으로 일상에 작은 휴식을 더하는 무드등 라인입니다."
+    },
+    {
+      "name": "생활용품",
+      "slug": "daily-goods",
+      "description": "외출과 수납, 집안 정리를 더 편하게 만드는 루툰 생활용품 라인입니다."
     }
   ],
   "products": [
@@ -261,6 +266,96 @@
         "#f7dcc7",
         "#8a5a3b",
         "#f2b56b"
+      ]
+    },
+    {
+      "category": "생활용품",
+      "model": "LT-HL-001",
+      "name": "유모차 컵홀더",
+      "summary": "컵 2개와 스마트폰까지 한 번에 정리하는 3in1 유모차 컵홀더",
+      "description": "9~35mm 조절 클램프와 360도 회전 구조로 유모차, 자전거, 킥보드 등 다양한 프레임에 장착할 수 있는 컵홀더입니다.",
+      "thumbnailImages": [
+        "assets/images/products/LT-HL-001/thumbnail/thumbnail-01.png",
+        "assets/images/products/LT-HL-001/thumbnail/thumbnail-02.png"
+      ],
+      "detailImages": [
+        "assets/images/products/LT-HL-001/detail/detail-01.png",
+        "assets/images/products/LT-HL-001/detail/detail-02.png",
+        "assets/images/products/LT-HL-001/detail/detail-03.png",
+        "assets/images/products/LT-HL-001/detail/detail-04.png",
+        "assets/images/products/LT-HL-001/detail/detail-05.png",
+        "assets/images/products/LT-HL-001/detail/detail-07.png",
+        "assets/images/products/LT-HL-001/detail/detail-08.png",
+        "assets/images/products/LT-HL-001/detail/detail-09.png",
+        "assets/images/products/LT-HL-001/detail/detail-10.png"
+      ],
+      "tags": [
+        "stroller",
+        "cup holder",
+        "daily goods",
+        "3in1"
+      ],
+      "specs": [
+        "브랜드명 루툰",
+        "색상 블랙, 핑크",
+        "옵션 3in1",
+        "사이즈 88mm x 19.5mm",
+        "컵 2개와 스마트폰 수납 가능",
+        "9~35mm 조절 클램프",
+        "360도 회전 방향 조절",
+        "TPE 보호패드로 스마트폰 스크래치 완화",
+        "쿠팡 링크 준비중",
+        "네이버 스마트스토어 링크 준비중"
+      ],
+      "palette": [
+        "#caa06a",
+        "#171313",
+        "#e7b2aa"
+      ]
+    },
+    {
+      "category": "생활용품",
+      "model": "LT-ST-001",
+      "name": "압축팩",
+      "summary": "이불과 의류를 깔끔하게 압축 보관할 수 있는 120x100cm 수납 압축팩",
+      "description": "도톰한 PA+PE 소재와 이중 밀봉, 밸브 마개 구조로 전동·수동펌프 모두 호환되는 수납 압축팩입니다.",
+      "thumbnailImages": [
+        "assets/images/products/LT-ST-001/thumbnail/thumbnail-01.png"
+      ],
+      "detailImages": [
+        "assets/images/products/LT-ST-001/detail/detail-01.png",
+        "assets/images/products/LT-ST-001/detail/detail-02.png",
+        "assets/images/products/LT-ST-001/detail/detail-03.png",
+        "assets/images/products/LT-ST-001/detail/detail-04.png",
+        "assets/images/products/LT-ST-001/detail/detail-05.png",
+        "assets/images/products/LT-ST-001/detail/detail-06.png",
+        "assets/images/products/LT-ST-001/detail/detail-07.png",
+        "assets/images/products/LT-ST-001/detail/detail-08.png",
+        "assets/images/products/LT-ST-001/detail/detail-09.png",
+        "assets/images/products/LT-ST-001/detail/detail-10.png"
+      ],
+      "tags": [
+        "storage",
+        "compression bag",
+        "daily goods",
+        "travel"
+      ],
+      "specs": [
+        "브랜드명 루툰",
+        "색상 투명 바디 + 블루 밸브",
+        "옵션 120x100",
+        "사이즈 120cm x 100cm",
+        "도톰한 PA+PE 소재",
+        "이중 밀봉 + 밸브 마개",
+        "전동·수동펌프 호환",
+        "이불, 의류, 여행짐 보관에 적합",
+        "쿠팡 링크 준비중",
+        "네이버 스마트스토어 링크 준비중"
+      ],
+      "palette": [
+        "#84b9e8",
+        "#f4f2ec",
+        "#2f8ccf"
       ]
     }
   ]
