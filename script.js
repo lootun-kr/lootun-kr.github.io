@@ -1,4 +1,4 @@
-const ASSET_VERSION = "20260717-product-refresh";
+const ASSET_VERSION = "20260717-csv-refresh";
 const DATA_URL = `data/products.json?v=${ASSET_VERSION}`;
 const page = document.body;
 const yearTarget = document.getElementById("year");

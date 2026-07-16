@@ -8,7 +8,12 @@
     {
       "name": "생활용품",
       "slug": "daily-goods",
-      "description": "외출과 수납, 집안 정리를 더 편하게 만드는 루툰 생활용품 라인입니다."
+      "description": "외출과 육아용품 정리를 더 편하게 만드는 루툰 생활용품 라인입니다."
+    },
+    {
+      "name": "수납/정리용품",
+      "slug": "storage-organization",
+      "description": "이불, 의류, 여행짐을 깔끔하게 압축 보관하는 루툰 수납/정리용품 라인입니다."
     }
   ],
   "products": [
@@ -17,7 +22,7 @@
       "model": "LT-001",
       "name": "말랑 뮤지컬 오리 무드등",
       "summary": "포근한 빛으로 지친하루를 힐링!",
-      "description": "상세페이지로 제공",
+      "description": "상세페이지 이미지로 제공",
       "thumbnailImages": [
         "assets/images/products/lt-001/thumbnail/thumbnail-01.jpg",
         "assets/images/products/lt-001/thumbnail/thumbnail-02.jpg",
@@ -50,8 +55,10 @@
       ],
       "specs": [
         "상세페이지 제공",
-        "쿠팡 바로가기 제공",
-        "네이버 스마트스토어 링크 준비중"
+        "썸네일 4장 제공",
+        "포근한 캐릭터 무드등",
+        "쿠팡 링크 준비중",
+        "네이버 스마트스토어 바로가기 제공"
       ],
       "palette": [
         "#f4d77b",
@@ -102,10 +109,11 @@
       ],
       "specs": [
         "상세페이지 제공",
+        "썸네일 6장 제공",
         "터치식 3단계 밝기 조절",
         "30분 타이머",
         "충전식 사용",
-        "네이버 스마트스토어 링크 준비중"
+        "네이버 스마트스토어 바로가기 제공"
       ],
       "palette": [
         "#5d8b49",
@@ -166,7 +174,7 @@
       "model": "LT-004",
       "name": "말랑 오리 무드등",
       "summary": "동글동글한 오리 실루엣으로 공간을 포근하게 채우는 무드등",
-      "description": "U&I 캐릭터 오리 무드등 썸네일 이미지로 제공",
+      "description": "U&I 캐릭터 오리 무드등 상세페이지 이미지로 제공",
       "thumbnailImages": [
         "assets/images/products/lt-004/thumbnail/thumbnail-01.jpg",
         "assets/images/products/lt-004/thumbnail/thumbnail-02.jpg",
@@ -207,9 +215,9 @@
         "night light"
       ],
       "specs": [
+        "상세페이지 제공",
         "썸네일 16장 제공",
         "말랑한 캐릭터 무드등",
-        "상세페이지 이미지 준비중",
         "쿠팡 링크 준비중",
         "네이버 스마트스토어 링크 준비중"
       ],
@@ -271,7 +279,7 @@
     {
       "category": "생활용품",
       "model": "LT-HL-001",
-      "name": "유모차 컵홀더",
+      "name": "유모차 컵홀더 3in1",
       "summary": "컵 2개와 스마트폰까지 한 번에 정리하는 3in1 유모차 컵홀더",
       "description": "9~35mm 조절 클램프와 360도 회전 구조로 유모차, 자전거, 킥보드 등 다양한 프레임에 장착할 수 있는 컵홀더입니다.",
       "thumbnailImages": [
@@ -314,10 +322,10 @@
       ]
     },
     {
-      "category": "생활용품",
+      "category": "수납/정리용품",
       "model": "LT-ST-001",
-      "name": "압축팩",
-      "summary": "이불과 의류를 깔끔하게 압축 보관할 수 있는 120x100cm 수납 압축팩",
+      "name": "압축팩 올인원",
+      "summary": "이불과 의류를 깔끔하게 압축 보관할 수 있는 120x100cm 올인원 압축팩",
       "description": "도톰한 PA+PE 소재와 이중 밀봉, 밸브 마개 구조로 전동·수동펌프 모두 호환되는 수납 압축팩입니다.",
       "thumbnailImages": [
         "assets/images/products/LT-ST-001/thumbnail/thumbnail-01.png"
@@ -337,7 +345,7 @@
       "tags": [
         "storage",
         "compression bag",
-        "daily goods",
+        "organizing",
         "travel"
       ],
       "specs": [

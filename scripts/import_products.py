@@ -24,6 +24,13 @@ def split_palette(value: str) -> list[str]:
     return [item.strip() for item in re.split(r"[|,;\n]", value or "") if item.strip()]
 
 
+def clean_url(value: str) -> str:
+    value = (value or "").strip()
+    if value in {"준비중", "링크 준비중", "없음", "-"}:
+        return ""
+    return value
+
+
 def slugify(value: str, fallback: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
     return slug or fallback
@@ -104,8 +111,8 @@ def row_to_product(row: dict[str, str], index: int) -> dict:
         "thumbnailImages": thumbnail_images,
         "detailImages": detail_images,
         "links": {
-            "coupang": (row.get("coupang_url") or "").strip(),
-            "naver": (row.get("naver_url") or "").strip(),
+            "coupang": clean_url(row.get("coupang_url") or ""),
+            "naver": clean_url(row.get("naver_url") or ""),
         },
         "tags": split_list(row.get("tags") or ""),
         "specs": split_list(row.get("specs") or ""),
